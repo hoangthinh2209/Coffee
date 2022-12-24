@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Coffee Coffee For Everyone</title>
+    <!-- FONT AWSOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <!-- CAROUSEL CSS FROM W3 SCHOOL -->
+    <link rel="stylesheet" href="./css/carousel.css">
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header id="sectionTop">
+        <div class="container">
+            <div class="grid-system">
+                <div class="logo-coffee">
+                    <i class="fa fa-coffee" id="logoIcon"></i>
+                    <div class="namelogo">
+                        <h1 class="logoTitle">Coffee</h1>
+                    </div>
+                </div>
+                <nav class="navbar">
+                    <ul class="tableNav">
+                        <li class="navbarLi"><a href="#" class="navbarbtn" data-bs-toggle="tooltip"
+                                data-bs-title="Cà Phê" data-bs-placement="bottom">Cà Phê</a></li>
+                        <li class="navbarLi"><a href="#" class="navbarbtn" data-bs-toggle="tooltip" data-bs-title="Trà"
+                                data-bs-placement="bottom">Trà</a></li>
+                        <li class="navbarLi"><a href="#" class="navbarbtn" data-bs-toggle="tooltip" data-bs-title="Menu"
+                                data-bs-placement="bottom">Menu</a></li>
+                        <li class="navbarLi"><a href="#" class="navbarbtn" data-bs-toggle="tooltip"
+                                data-bs-title="Tin Tức" data-bs-placement="bottom">Tin Tức</a></li>
+                        <li class="navbarLi"><a href="#" class="navbarbtn" data-bs-toggle="tooltip"
+                                data-bs-title="Công Thức" data-bs-placement="bottom">Công Thức</a></li>
+                        <li class="navbarLi"><a href="#" class="navbarbtn" data-bs-toggle="tooltip"
+                                data-bs-title="Cửa Hàng" data-bs-placement="bottom">Cửa Hàng</a> </li>
+                        <li class="navbarLi"><a href="#" class="navbarbtn" data-bs-toggle="tooltip"
+                                data-bs-title="Tuyển Dụng" data-bs-placement="bottom">Tuyển Dụng</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- CAROUSEL -->
+    <section id="carousel">
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <!-- <div class="numbertext">1 / 3</div> -->
+                <img src="./images/banner1.jpg" style="width:100%">
+                <!-- <div class="text">Caption Text</div> -->
+            </div>
+
+            <div class="mySlides fade">
+                <!-- <div class="numbertext">2 / 3</div> -->
+                <img src="./images/banner2.jpg" style="width:100%">
+                <!-- <div class="text">Caption Two</div> -->
+            </div>
+
+            <div class="mySlides fade">
+                <!-- <div class="numbertext">3 / 3</div> -->
+                <img src="./images/banner3.jpg" style="width:100%">
+                <!-- <div class="text">Caption Three</div> -->
+            </div>
+
+            <!-- Next and previous buttons -->
+            <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <!-- <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div> -->
+    </section>
+    <!-- ORDER -->
+    <section id="order">
+        <h2 class="title">ORDER</h2>
+        <div class="order1">
+            <div class="grid-system grid-order-custom">
+                <div class="order-img">
+                    <img class="img-fluid" src="./images/banner1.jpg" alt="">
+                </div>
+                <div class="order-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, dignissimos? Sapiente neque qui
+                        quidem optio minima magnam delectus dicta dolorum.</p>
+                    <button class="orderFood">Đặt Món</button>
+                </div>
+            </div>
+        </div>
+        <div class="order2">
+            <div class="grid-system grid-order-custom">
+                <div class="order-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, dignissimos? Sapiente neque qui
+                        quidem optio minima magnam delectus dicta dolorum.</p>
+                    <button class="orderFood">Đặt Món</button>
+                </div>
+                <div class="order-img">
+                    <img class="img-fluid" src="./images/banner2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SHOP -->
+    <!-- INFOMATION -->
+    <!-- NEWS -->
+    <!-- FOOTER -->
+    <!-- BOOTSTRAP JS -->
+    <script src="./node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./js/popper.js"></script>
+    <script src="./js/carousel.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

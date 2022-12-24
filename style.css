@@ -1,0 +1,94 @@
+@font-face {
+    font-family: SF-Pro-Text-Light;
+    src: url(./fonts/SF-Pro-Text-Light.otf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: SF-Pro-Text-Regular;
+    src: url(./fonts/SF-Pro-Text-Regular.otf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: SF-Pro-Text-Heavy;
+    src: url(./fonts/SF-Pro-Text-Heavy.otf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: SF-Pro-Text-Bold;
+    src: url(./fonts/SF-Pro-Text-Bold.otf);
+    font-style: normal;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    font-family: SF-Pro-Text-Heavy, sans-serif;
+    font-size: 20px;
+}
+
+#sectionTop {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+/* HEADER */
+.logo-coffee .namelogo {
+    display: inline-block;
+}
+
+.logoTitle {
+    font-size: 40px;
+    color: burlywood;
+}
+
+#logoIcon {
+    font-size: 50px;
+    color: brown;
+}
+
+.navbar {
+    justify-content: flex-end;
+}
+
+.navbarLi {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navbarbtn {
+    text-decoration: none;
+    color: chocolate;
+}
+
+.navbarbtn:hover {
+    color: coral;
+}
+
+.grid-system {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.tableNav {
+    margin-bottom: 0;
+}
+
+/* ORDER */
+.grid-order-custom{
+    grid-template-columns: 1fr 1fr;
+}
