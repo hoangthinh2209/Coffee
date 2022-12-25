@@ -89,20 +89,3 @@ body {
 }
 
 /* ORDER */
-.grid-order-custom{
-    grid-template-columns: 1fr 1fr;
-}
-
-.title{
-    text-align: center;
-    margin: 30px 0 30px 0;
-    color: chocolate;
-}
-
-.orderFood{
-    border:1px solid coral;
-    background-color: chocolate;
-}
-.orderFood:hover{
-    background-color: coral;
-}
